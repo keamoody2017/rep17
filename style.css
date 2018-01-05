@@ -1,0 +1,281 @@
+body {
+    background-color: #abbcc9;
+    background-size: 100%;
+    margin: 0;
+}
+
+
+h1 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 2em;
+    text-align: center;
+    display: block;
+    color: aliceblue;
+}
+
+h2 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+    display: block;
+}
+
+h3 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 1.2em;
+    text-align: center;
+    display: block;
+}
+
+h4 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 1em;
+    font-style: italic;
+}
+
+
+p {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 0.9em;
+    text-align: justify;
+}
+
+
+.topnav {
+    overflow: hidden;
+    background-color: #5c7675;
+}
+
+.topnav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+    font-size: 0.8em;
+}
+
+.topnav a:hover {
+    background-color: cadetblue;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: deepskyblue;
+    color: white;
+}
+
+ul {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 1em;
+}
+
+li {
+    font-family: 'Futura', sans-serif;
+    font-size: 1em;
+}
+
+.sectionwrapper {
+    /*parent*/
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.column {
+    /*child*/
+    flex-basis: 400px;
+    flex-grow: 1;
+    align-self: auto;
+    padding: 5px;
+    margin: 5px;
+}
+
+.columnvideo {
+    /*child*/
+    flex-basis: 400px;
+    flex-grow: 1;
+    align-self: auto;
+    padding: 5px;
+    margin: 5px;
+}
+
+.columnvideo p {
+    text-align: center;
+}
+
+#intro h1 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 3em;
+    text-align: center;
+    display: block;
+    color: aliceblue;
+}
+
+#intro img {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+#intro video {
+    display: block;
+    margin: 0 auto;
+    width: 40%;
+}
+
+#prototype {
+    margin: 10px;
+}
+
+#prototype video {
+    width: 50%;
+}
+
+#prototype h3 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 1.5em;
+    color: aliceblue;
+    text-align: left;
+
+}
+
+#prototype p {
+    font-family: 'Futura', sans-serif;
+    font-size: 1.1em;
+}
+
+
+
+
+a {
+    font-family: 'Futura', sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+    display: block;
+}
+
+video {
+    display: block;
+    margin: 0 auto;
+}
+
+
+#styletile img {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+}
+
+#footer {
+    position: static;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: darkcyan;
+    color: white;
+    text-align: center;
+}
+
+#footer p {
+    font-family: 'Futura', sans-serif;
+    font-size: 0.5em;
+    text-align: center;
+}
+
+#footer column {
+    flex-basis: 100px;
+    flex-grow: 1;
+    align-self: auto;
+    padding: 1px;
+    margin: 1px;
+
+}
+
+#footer img {
+    width: 20%;
+    margin: 0 auto;
+}
+
+#persona img {
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+
+}
+
+
+#persona p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 80px;
+
+}
+
+#nabc {
+    margin: 30px;
+    padding: 0px;
+}
+
+
+#bmc {
+    margin 30px;
+    padding: 30px;
+}
+
+#bmc img {
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+
+}
+
+#bruger {
+    margin 30px;
+    padding: 30px;
+}
+
+#bruger img {
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+
+}
+
+#kontakt {
+    margin-top: 150px;
+    margin-bottom: 150px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+#kontakt h2 {
+    text-align: center;
+    color: azure;
+}
+
+#kontakt h3 {
+    text-align: center;
+}
+
+#kontakt img {
+    margin: 0 auto;
+    display: block;
+    width: 20%;
+}
+
+#ikon {
+    margin-top: 150px;
+    margin-bottom: 150px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+#ikon img {
+    width: 40%;
+    margin: 0 auto;
+    display: block;
+}
